@@ -30,7 +30,7 @@ We focus on 4 essential capabilities for time-sensitive video understanding: ***
 ## 🔥 News
 
 - **`2024.09.28`** ⭐️ Code, model, and dataset release.
-- **`2024.09.27`** 🎉 E.T. Bench has been accepted to NeurIPS 2024.
+- **`2024.09.27`** 🎉 E.T. Bench has been accepted to **NeurIPS 2024 (Datasets and Benchmarks Track)**.
 
 ## 🏆 Leaderboard
 
