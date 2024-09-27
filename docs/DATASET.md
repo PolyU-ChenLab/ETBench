@@ -1,5 +1,9 @@
 # E.T. Instruct 164K
 
+<p align="center">
+  <img width="500" src="../.github/dataset.jpg">
+</p>
+
 E.T. Instruct 164K is a large-scale instruction-tuning dataset tailored for fine-grained event-level and time-sensitive video understanding. It contains 101K meticulously collected videos under diverse domains and 9 event-level understanding tasks with well-designed instruction-response pairs. The average video length is around 146 seconds.
 
 ## 📦 Download Dataset
