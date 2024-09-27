@@ -1,0 +1,12 @@
+git+https://github.com/salaniz/pycocoevalcap.git@a24f74c
+accelerate==0.33.0
+decord==0.6.0
+deepspeed==0.14.5
+nncore==0.4.5
+numpy==1.26.4
+peft==0.12.0
+sentence-transformers==3.0.1
+sentencepiece==0.2.0
+torch==2.4.0
+torchvision==0.19.0
+transformers==4.44.2
