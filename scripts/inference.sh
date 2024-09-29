@@ -23,4 +23,4 @@ done
 
 wait
 
-python etbench/eval.py $stage3_path/etbench
+python data/etbench/evaluation/compute_metrics.py $stage3_path/etbench
