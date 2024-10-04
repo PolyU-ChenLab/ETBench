@@ -22,5 +22,3 @@ for IDX in $(seq 0 $((CHUNKS-1))); do
 done
 
 wait
-
-python data/etbench/evaluation/compute_metrics.py $stage3_path/etbench
