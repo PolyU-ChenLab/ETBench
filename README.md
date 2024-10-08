@@ -9,7 +9,7 @@
   <a href="https://polyu-chenlab.github.io/etbench"><img src="https://img.shields.io/badge/Project-Page-brightgreen"></a>
   <a href="https://huggingface.co/datasets/PolyU-ChenLab/ETBench"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-E.T.%20Bench-blue"></a>
   <a href="https://huggingface.co/datasets/PolyU-ChenLab/ET-Instruct-164K"><img src="https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-E.T.%20Instruct%20164K-orange"></a>
-  <a href="/LICENSE"><img src="https://img.shields.io/badge/License-BSD%203--Clause-purple"></a>
+  <a href="/LICENSE"><img src="https://img.shields.io/badge/License-BSD--3--Clause-purple"></a>
 </p>
 
 <p align="center">
