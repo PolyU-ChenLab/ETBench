@@ -46,7 +46,7 @@ def _load_video(video_path, fps=1, min_len=-1, max_len=-1, **kwargs):
     frame_idx = np.arange(0, len(vr), avg_fps / fps).round().astype('int').clip(0, len(vr) - 1).tolist()
     video = vr.get_batch(frame_idx)
 
-    tag = [round(i * avg_fps, 1) for i in frame_idx]
+    tag = [round(i / avg_fps, 1) for i in frame_idx]
 
     return video, tag
 
