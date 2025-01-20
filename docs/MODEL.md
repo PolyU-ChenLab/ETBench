@@ -47,11 +47,15 @@ We apply a three-stage training receipe for E.T. Chat, where the first stage is 
 
 We compare the learnable modules in each stage, and provide their checkpoints as follows.
 
+> [!NOTE]
+> We additionally trained a model by mixing the data of stage 2 and stage 3, yielding much better general chatting capabilities but slightly sub-optimal grounding performance. The checkpoint is listed below under the `Stage-2+3` tag.
+
 || Encoder | Q-Former | Aggregator | Projector | LLM (LoRA) | Checkpoint |
 |-|:-:|:-:|:-:|:-:|:-:|:-:|
 | `Stage-1` | ❄️ | ❄️ | 🔥 | 🔥 | ❄️ | [![Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm-dark.svg)](https://huggingface.co/PolyU-ChenLab/ETChat-Phi3-Mini-Stage-1) |
 | `Stage-2` | ❄️ | 🔥 | 🔥 | 🔥 | 🔥 | [![Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm-dark.svg)](https://huggingface.co/PolyU-ChenLab/ETChat-Phi3-Mini-Stage-2) |
 | `Stage-3` | ❄️ | 🔥 / ❄️ | 🔥 | 🔥 | 🔥 | [![Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm-dark.svg)](https://huggingface.co/PolyU-ChenLab/ETChat-Phi3-Mini-Stage-3) |
+| `Stage-2+3` | ❄️ | 🔥 | 🔥 | 🔥 | 🔥 | [![Hugging Face](https://huggingface.co/datasets/huggingface/badges/resolve/main/model-on-hf-sm-dark.svg)](https://huggingface.co/PolyU-ChenLab/ETChat-Phi3-Mini-Stage-2-3) |
 
 If you want to start from `stage-1`, the pre-trained weights from [Phi3-Mini-4K-Instruct](https://huggingface.co/microsoft/Phi-3-mini-4k-instruct), [EVA-ViT-G](https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/BLIP2/eva_vit_g.pth), and [Q-Former](https://storage.googleapis.com/sfr-vision-language-research/LAVIS/models/InstructBLIP/instruct_blip_vicuna7b_trimmed.pth) are required for initializing the model. The downloaded checkpoints shall be saved in the `model_zoo` folder.
 
